@@ -11,7 +11,7 @@ import Clients from './clients/Clients';
 import Sales from './sales/sales';
 import Productanalysis from './product-analysis/productanalysis';
 import CustomerReview from './customer-review/customer-review';
-import EmployeeList from './employeelist/employee-list';
+// import EmployeeList from './employeelist/employee-list';
 import Marketing from './marketing/marketing';
 import Dashboard from './New-Dashboard/Dashboard'
 
@@ -36,7 +36,7 @@ function App() {
           <Route path="/sales" element={<Sales />} />
           <Route path="/analysis" element={<Productanalysis />} />
           <Route path="/reviews" element={<CustomerReview />} />
-          <Route path="/employees" element={<EmployeeList />} />
+          {/* <Route path="/employees" element={<EmployeeList />} /> */}
           <Route path="/marketing" element={<Marketing />} />
         </Routes>
       </div>
